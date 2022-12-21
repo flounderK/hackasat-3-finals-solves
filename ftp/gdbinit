@@ -1,0 +1,5 @@
+set follow-fork-mode child
+b malloc
+disable b 1
+c
+
